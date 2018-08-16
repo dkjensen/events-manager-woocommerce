@@ -1,0 +1,107 @@
+[
+    {
+        "name": "webdevstudios/cmb2",
+        "version": "v2.4.2",
+        "version_normalized": "2.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CMB2/CMB2.git",
+            "reference": "fdcb80985e4b4a4c7118b2ecce090af4a3309958"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CMB2/CMB2/zipball/fdcb80985e4b4a4c7118b2ecce090af4a3309958",
+            "reference": "fdcb80985e4b4a4c7118b2ecce090af4a3309958",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">5.2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2018-05-29 14:23:29",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "WebDevStudios",
+                "email": "contact@webdevstudios.com",
+                "homepage": "https://github.com/WebDevStudios",
+                "role": "Developer"
+            },
+            {
+                "name": "Justin Sternberg",
+                "email": "justin@dsgnwrks.pro",
+                "homepage": "https://dsgnwrks.pro",
+                "role": "Developer"
+            },
+            {
+                "name": "Zao",
+                "email": "office@zao.com",
+                "homepage": "http://zao.is",
+                "role": "Developer"
+            }
+        ],
+        "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
+        "homepage": "https://github.com/CMB2/CMB2",
+        "keywords": [
+            "metabox",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "webdevstudios/cmb2-post-search-field",
+        "version": "v0.2.5",
+        "version_normalized": "0.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/WebDevStudios/CMB2-Post-Search-field.git",
+            "reference": "f1c0422a3de6e95f5b5597fe734f86ae51990ce8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/WebDevStudios/CMB2-Post-Search-field/zipball/f1c0422a3de6e95f5b5597fe734f86ae51990ce8",
+            "reference": "f1c0422a3de6e95f5b5597fe734f86ae51990ce8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">5.2.4"
+        },
+        "suggest": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2016-05-30 06:58:49",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "WebDevStudios",
+                "email": "contact@webdevstudios.com",
+                "homepage": "https://github.com/WebDevStudios",
+                "role": "Developer"
+            }
+        ],
+        "description": "Custom field for CMB2 which adds a post-search dialog for searching/attaching other post IDs.",
+        "homepage": "https://github.com/WebDevStudios/CMB2",
+        "keywords": [
+            "field",
+            "metabox",
+            "plugin",
+            "search",
+            "wordpress"
+        ]
+    }
+]

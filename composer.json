@@ -1,0 +1,25 @@
+{
+    "name": "david/events-manager-woocommerce",
+    "type": "wordpress-plugin",
+    "require": {
+        "webdevstudios/cmb2": "^2.4",
+        "webdevstudios/cmb2-post-search-field": "^0.2.5"
+    },
+    "autoload" : {
+        "files": [
+            "vendor/webdevstudios/cmb2/init.php",
+            "vendor/webdevstudios/cmb2-post-search-field/cmb2_post_search_field.php"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/webdevstudios/cmb2": ["webdevstudios/cmb2"]
+        }
+    },
+    "authors": [
+        {
+            "name": "David Jensen",
+            "email": "david@dkjensen.com"
+        }
+    ]
+}
